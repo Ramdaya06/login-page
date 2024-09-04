@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login & Signup</title>
+    <link rel="stylesheet" href="loginsinup.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation for toggling between login and signup -->
+        <div class="toggle">
+            <button id="login-btn">Login</button>
+            <button id="signup-btn">Signup</button>
+        </div>
+
+        <!-- Login Form -->
+        <div id="login-form" class="form">
+            <h2>Login</h2>
+            <form action="#">
+                <label for="login-username">Username</label>
+                <input type="text" id="login-username" name="login-username" required>
+                
+                <label for="login-password">Password</label>
+                <input type="password" id="login-password" name="login-password" required>
+                
+                <button type="submit">Login</button>
+            </form>
+        </div>
+
+        <!-- Signup Form -->
+        <div id="signup-form" class="form hidden">
+            <h2>Signup</h2>
+            <form action="#">
+                <label for="signup-username">Username</label>
+                <input type="text" id="signup-username" name="signup-username" required>
+                
+                <label for="signup-email">Email</label>
+                <input type="email" id="signup-email" name="signup-email" required>
+                
+                <label for="signup-password">Password</label>
+                <input type="password" id="signup-password" name="signup-password" required>
+                
+                <label for="signup-confirm-password">Confirm Password</label>
+                <input type="password" id="signup-confirm-password" name="signup-confirm-password" required>
+                
+                <button type="submit">Signup</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="login sinup.js"></script>
+</body>
+</html>
